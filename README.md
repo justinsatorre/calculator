@@ -1,0 +1,2 @@
+This project is meant to test knowledge of front-end languages, HTML, CSS, and Javascript.
+In this project we were to create an attractive, functional calculator. The calculator can do four types of calculations - addition, subtraction, multiplication, and division. It can use decimals and functions similarly to a standard calculator.

@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-image: url(https://storage.needpix.com/rsynced_images/geometric-pattern-3d-blocks.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #53565A;
+    margin: 0;
+    padding: 0;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 1em;
+    border-width: 0;
+    margin: .25em;
+    padding: 2px;
+    flex-wrap: wrap;
+    background-color: #D0D3D4;
+    font-size: 20px;
+    ;
+}
+button:hover {
+    background-color: #B1B1B0 ;
+}
+button:active {
+    transform: scale(.9);
+}
+#calculator {
+    background-color: #DBDCDB;
+    width: 500px;
+    height: 750px;
+    border-radius: 2em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#display {
+    display: flex;
+    background-color: #25252A;
+    width: 85%;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 70px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    text-align: right;
+}
+#backspace {
+    width:60px;
+    height:40px;
+    margin-bottom: 5px;
+    padding: 0 0 0 0;
+}
+#clear {
+    width:60px;
+    height:40px;
+    margin-bottom: 5px;
+    padding: 0 0 0 0;
+}
+#surface {
+    display: flex;
+    width: 67.05%;
+    height: 100%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.95);  
+}
+#name {
+    font-family: Helvetica, Arial, sans-serif;
+    text-justify: left;
+    margin-right: 42%;
+    font-weight: bold;
+}
+#stored {
+    height: 44px;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    width: 90%;
+}
+#current {
+    margin-top: 0;
+    margin-right: 10px;
+    width: 90%;
+}
+.operator {
+    background-color: #F6E07C;
+}
+.operator:hover{
+    background-color: #e4cf72 ;
+}
+#decimal {
+    background-color: #8BA9D8;
+}
+#decimal:hover {
+    background-color: #7994be ;
+}
+#equal {
+    background-color: #EAA1AF;
+}
+#equal:hover {
+    background-color: #d18f9d ;
+}
