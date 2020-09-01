@@ -4,7 +4,7 @@ html, body {
     flex-direction: column;
 }
 body {
-    background-image: url(https://storage.needpix.com/rsynced_images/geometric-pattern-3d-blocks.jpg);
+    background-image: url(geometric-pattern-3d-blocks.jpg);
     background-repeat: repeat;
     background-position: center;
     background-color: #53565A;
